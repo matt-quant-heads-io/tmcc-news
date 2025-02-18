@@ -5,9 +5,9 @@ from typing import List
 
 GMAIL_SMTP_SERVER = "smtp.gmail.com"
 GMAIL_SMTP_PORT = 587
-SENDER_EMAIL = "matt@manhattancomputation.com"
-APP_PASSWORD = "yuzi immk yjme tpie"
-RECIPIENTS = ["matt@manhattancomputation.com", "jack@manhattancomputation.com"]
+SENDER_EMAIL = "" #Sender here
+APP_PASSWORD = "" #App password
+RECIPIENTS = [] #Recipients here
 
 def send_email(subject: str, body: str) -> bool:
     """
